@@ -1,0 +1,376 @@
+{
+  "version": "1.0.0",
+  "schema": "street_fight_global/fighter_manifest",
+  "archetypes": [
+    {
+      "id": "bane_crusher",
+      "display_name": "CRUSHER",
+      "archetype_ref": "Bane (The Dark Knight Rises)",
+      "lore": "Former cartel enforcer. Pain is his language.",
+      "stats": {
+        "mass_kg": 127,
+        "power": 98,
+        "reach_cm": 198,
+        "recovery_ms": 820,
+        "speed": 38,
+        "stamina": 90,
+        "combo_depth": 3,
+        "stagger_resist": 95
+      },
+      "combat_profile": {
+        "style": "pressure_brawler",
+        "specialty": "grapple_into_slam",
+        "signature_move": "vertebrae_snap",
+        "hit_stun_multiplier": 1.4,
+        "block_break_damage": 35
+      },
+      "model": {
+        "height_units": 2.1,
+        "build": "ultra_heavy",
+        "skin_tone": "#8B5E3C",
+        "outfit_primary": "#1A1A2E",
+        "outfit_accent": "#C0392B",
+        "pbr_material": "res://assets/fighters/crusher/mat_crusher.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/crusher_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/crusher_taunt.ogg",
+        "footstep_weight": "heavy"
+      }
+    },
+    {
+      "id": "wick_ghost",
+      "display_name": "GHOST",
+      "archetype_ref": "John Wick",
+      "lore": "Retired. Came back. Never misses.",
+      "stats": {
+        "mass_kg": 88,
+        "power": 82,
+        "reach_cm": 184,
+        "recovery_ms": 280,
+        "speed": 91,
+        "stamina": 88,
+        "combo_depth": 9,
+        "stagger_resist": 65
+      },
+      "combat_profile": {
+        "style": "gun-fu_striker",
+        "specialty": "judo_counter_chain",
+        "signature_move": "pencil_execution",
+        "hit_stun_multiplier": 0.9,
+        "block_break_damage": 18
+      },
+      "model": {
+        "height_units": 1.88,
+        "build": "athletic",
+        "skin_tone": "#D4A97A",
+        "outfit_primary": "#1C1C1C",
+        "outfit_accent": "#4A4A4A",
+        "pbr_material": "res://assets/fighters/ghost/mat_ghost.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/ghost_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/ghost_taunt.ogg",
+        "footstep_weight": "silent"
+      }
+    },
+    {
+      "id": "dragon_fist",
+      "display_name": "DRAGON",
+      "archetype_ref": "Bruce Lee (Enter the Dragon)",
+      "lore": "Philosophy is the weapon. The fist is the argument.",
+      "stats": {
+        "mass_kg": 64,
+        "power": 75,
+        "reach_cm": 172,
+        "recovery_ms": 150,
+        "speed": 99,
+        "stamina": 95,
+        "combo_depth": 12,
+        "stagger_resist": 45
+      },
+      "combat_profile": {
+        "style": "jeet_kune_do",
+        "specialty": "five_hit_chain_finisher",
+        "signature_move": "one_inch_punch",
+        "hit_stun_multiplier": 0.75,
+        "block_break_damage": 12
+      },
+      "model": {
+        "height_units": 1.72,
+        "build": "lean_defined",
+        "skin_tone": "#C68B5B",
+        "outfit_primary": "#FFD700",
+        "outfit_accent": "#000000",
+        "pbr_material": "res://assets/fighters/dragon/mat_dragon.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/dragon_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/dragon_taunt.ogg",
+        "footstep_weight": "light"
+      }
+    },
+    {
+      "id": "shaka_warrior",
+      "display_name": "SHAKA",
+      "archetype_ref": "Shaka Zulu",
+      "lore": "Every battlefield is a homecoming.",
+      "stats": {
+        "mass_kg": 102,
+        "power": 92,
+        "reach_cm": 194,
+        "recovery_ms": 450,
+        "speed": 72,
+        "stamina": 97,
+        "combo_depth": 5,
+        "stagger_resist": 88
+      },
+      "combat_profile": {
+        "style": "warrior_rush",
+        "specialty": "shield_charge_combo",
+        "signature_move": "assegai_thrust",
+        "hit_stun_multiplier": 1.2,
+        "block_break_damage": 28
+      },
+      "model": {
+        "height_units": 1.94,
+        "build": "powerhouse",
+        "skin_tone": "#5C3317",
+        "outfit_primary": "#8B4513",
+        "outfit_accent": "#DAA520",
+        "pbr_material": "res://assets/fighters/shaka/mat_shaka.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/shaka_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/shaka_taunt.ogg",
+        "footstep_weight": "heavy"
+      }
+    },
+    {
+      "id": "specter_zero",
+      "display_name": "SPECTER",
+      "archetype_ref": "Leon (The Professional)",
+      "lore": "Sunglasses. House plant. No witnesses.",
+      "stats": {
+        "mass_kg": 82,
+        "power": 78,
+        "reach_cm": 180,
+        "recovery_ms": 320,
+        "speed": 85,
+        "stamina": 80,
+        "combo_depth": 7,
+        "stagger_resist": 60
+      },
+      "combat_profile": {
+        "style": "silent_assassin",
+        "specialty": "pressure_point_strikes",
+        "signature_move": "clean_takedown",
+        "hit_stun_multiplier": 1.05,
+        "block_break_damage": 20
+      },
+      "model": {
+        "height_units": 1.80,
+        "build": "wiry_muscular",
+        "skin_tone": "#D2B48C",
+        "outfit_primary": "#2F4F4F",
+        "outfit_accent": "#696969",
+        "pbr_material": "res://assets/fighters/specter/mat_specter.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/specter_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/specter_taunt.ogg",
+        "footstep_weight": "medium"
+      }
+    },
+    {
+      "id": "thunder_queen",
+      "display_name": "THUNDER",
+      "archetype_ref": "Furiosa (Mad Max)",
+      "lore": "Built engines. Now breaks bones.",
+      "stats": {
+        "mass_kg": 74,
+        "power": 80,
+        "reach_cm": 176,
+        "recovery_ms": 380,
+        "speed": 78,
+        "stamina": 92,
+        "combo_depth": 6,
+        "stagger_resist": 72
+      },
+      "combat_profile": {
+        "style": "dirty_brawler",
+        "specialty": "environment_weapon_grab",
+        "signature_move": "engine_block_slam",
+        "hit_stun_multiplier": 1.15,
+        "block_break_damage": 22
+      },
+      "model": {
+        "height_units": 1.76,
+        "build": "combat_fit",
+        "skin_tone": "#C4A882",
+        "outfit_primary": "#5D4037",
+        "outfit_accent": "#FF6F00",
+        "pbr_material": "res://assets/fighters/thunder/mat_thunder.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/thunder_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/thunder_taunt.ogg",
+        "footstep_weight": "medium"
+      }
+    },
+    {
+      "id": "neon_cipher",
+      "display_name": "CIPHER",
+      "archetype_ref": "Neo (The Matrix)",
+      "lore": "Bends the rules. Then breaks your spine.",
+      "stats": {
+        "mass_kg": 79,
+        "power": 70,
+        "reach_cm": 183,
+        "recovery_ms": 200,
+        "speed": 96,
+        "stamina": 82,
+        "combo_depth": 10,
+        "stagger_resist": 55
+      },
+      "combat_profile": {
+        "style": "bullet_time_evade",
+        "specialty": "dodge_into_counter_window",
+        "signature_move": "matrix_dodge_chain",
+        "hit_stun_multiplier": 0.85,
+        "block_break_damage": 16
+      },
+      "model": {
+        "height_units": 1.83,
+        "build": "lean_tall",
+        "skin_tone": "#B8926A",
+        "outfit_primary": "#0A0A0A",
+        "outfit_accent": "#00FF41",
+        "pbr_material": "res://assets/fighters/cipher/mat_cipher.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/cipher_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/cipher_taunt.ogg",
+        "footstep_weight": "light"
+      }
+    },
+    {
+      "id": "desert_hawk",
+      "display_name": "HAWK",
+      "archetype_ref": "Max Rockatansky (Mad Max: Fury Road)",
+      "lore": "Desert-born. Pain-forged. Tire-iron certified.",
+      "stats": {
+        "mass_kg": 90,
+        "power": 86,
+        "reach_cm": 186,
+        "recovery_ms": 500,
+        "speed": 68,
+        "stamina": 85,
+        "combo_depth": 4,
+        "stagger_resist": 80
+      },
+      "combat_profile": {
+        "style": "survival_brawler",
+        "specialty": "weapon_pickup_bonus",
+        "signature_move": "intercooler_headbutt",
+        "hit_stun_multiplier": 1.25,
+        "block_break_damage": 30
+      },
+      "model": {
+        "height_units": 1.86,
+        "build": "road_worn",
+        "skin_tone": "#A0785A",
+        "outfit_primary": "#3D2B1F",
+        "outfit_accent": "#8B6914",
+        "pbr_material": "res://assets/fighters/hawk/mat_hawk.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/hawk_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/hawk_taunt.ogg",
+        "footstep_weight": "heavy"
+      }
+    },
+    {
+      "id": "iron_monk",
+      "display_name": "IRON MONK",
+      "archetype_ref": "Ip Man",
+      "lore": "Wing Chun: 1000 repetitions per day. No exceptions.",
+      "stats": {
+        "mass_kg": 68,
+        "power": 72,
+        "reach_cm": 170,
+        "recovery_ms": 180,
+        "speed": 94,
+        "stamina": 100,
+        "combo_depth": 11,
+        "stagger_resist": 50
+      },
+      "combat_profile": {
+        "style": "wing_chun_master",
+        "specialty": "centerline_theory_zone_control",
+        "signature_move": "chain_punch_barrage",
+        "hit_stun_multiplier": 0.7,
+        "block_break_damage": 8
+      },
+      "model": {
+        "height_units": 1.70,
+        "build": "compact_precise",
+        "skin_tone": "#C8A878",
+        "outfit_primary": "#F5F5F0",
+        "outfit_accent": "#8B7355",
+        "pbr_material": "res://assets/fighters/monk/mat_monk.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/monk_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/monk_taunt.ogg",
+        "footstep_weight": "feather"
+      }
+    },
+    {
+      "id": "nakia_viper",
+      "display_name": "VIPER",
+      "archetype_ref": "Nakia (Black Panther)",
+      "lore": "War Dogs don't retire. They evolve.",
+      "stats": {
+        "mass_kg": 70,
+        "power": 77,
+        "reach_cm": 174,
+        "recovery_ms": 240,
+        "speed": 90,
+        "stamina": 88,
+        "combo_depth": 8,
+        "stagger_resist": 62
+      },
+      "combat_profile": {
+        "style": "ring_blade_acrobat",
+        "specialty": "low_sweep_overhead_combo",
+        "signature_move": "vibranium_ring_ricochet",
+        "hit_stun_multiplier": 1.0,
+        "block_break_damage": 24
+      },
+      "model": {
+        "height_units": 1.74,
+        "build": "agile_warrior",
+        "skin_tone": "#6B3A2A",
+        "outfit_primary": "#1B5E20",
+        "outfit_accent": "#F9A825",
+        "pbr_material": "res://assets/fighters/viper/mat_viper.tres"
+      },
+      "audio": {
+        "hit_sfx": "res://audio/sfx/viper_hit.ogg",
+        "taunt_sfx": "res://audio/sfx/viper_taunt.ogg",
+        "footstep_weight": "light"
+      }
+    }
+  ],
+  "stat_ranges": {
+    "mass_kg":      { "min": 64,  "max": 127, "note": "Affects hitbox size and knockback resistance" },
+    "power":        { "min": 0,   "max": 100, "note": "Raw damage per hit unit" },
+    "reach_cm":     { "min": 170, "max": 198, "note": "Maps to hitbox forward extent" },
+    "recovery_ms":  { "min": 150, "max": 820, "note": "Milliseconds before next attack input registers" },
+    "speed":        { "min": 0,   "max": 100, "note": "Movement + attack initiation rate" },
+    "stamina":      { "min": 0,   "max": 100, "note": "Governs fatigue decay over rounds" },
+    "combo_depth":  { "min": 3,   "max": 12,  "note": "Maximum chained hits in a single input sequence" },
+    "stagger_resist":{ "min": 45, "max": 95,  "note": "% chance to negate stagger on a hit" }
+  }
+}
