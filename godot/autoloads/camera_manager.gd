@@ -1,5 +1,4 @@
 # Autoload: CameraManager
-# cuts to spectator orbit when local player is KO'd.
 
 extends Node
 
