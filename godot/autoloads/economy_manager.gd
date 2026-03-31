@@ -1,4 +1,3 @@
-# economy_manager.gd
 # Autoload: EconomyManager
 # Handles the full payment pipeline:
 #   KES (M-Pesa) → Stellar Anchor → XLM/USDC → Soroban Escrow
