@@ -1,6 +1,5 @@
 # Autoload: NetworkManager
 # Bridges Godot 4 to the Colyseus authoritative server.
-# Uses WebSocketPeer — no third-party addon required.
 
 extends Node
 
