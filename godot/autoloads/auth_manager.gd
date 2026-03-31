@@ -1,4 +1,3 @@
-# Autoload: AuthManager  (must be FIRST in AutoLoad list)
 # Handles: player identity, JWT issuance, Stellar keypair storage
 # On mobile: keypair stored in OS keychain via DisplayServer.clipboard (Phase 2: SecureStorage plugin)
 
