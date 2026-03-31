@@ -1,7 +1,4 @@
 
-# Manages the top-level 10-player arena lifecycle.
-# Attach to: Project Settings → Autoload → ArenaManager
-
 extends Node
 
 # ─────────────────────────────────────────────
