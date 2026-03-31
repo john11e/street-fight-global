@@ -1,4 +1,3 @@
-# game_state.gd
 # Autoload: GameState
 # Simple global state bus — holds values that must survive scene transitions.
 
