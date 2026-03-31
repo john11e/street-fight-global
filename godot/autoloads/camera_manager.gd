@@ -1,5 +1,4 @@
 # Autoload: CameraManager
-# Dynamic 3D camera: follows all fighters, zooms out for wider fights,
 # cuts to spectator orbit when local player is KO'd.
 
 extends Node
