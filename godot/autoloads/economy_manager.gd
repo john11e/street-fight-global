@@ -1,5 +1,4 @@
 # Autoload: EconomyManager
-# Handles the full payment pipeline:
 #   KES (M-Pesa) → Stellar Anchor → XLM/USDC → Soroban Escrow
 #   Bank/Card (Stripe) → XLM/USDC → Soroban Escrow
 
