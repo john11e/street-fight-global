@@ -1,4 +1,3 @@
-# On mobile: keypair stored in OS keychain via DisplayServer.clipboard (Phase 2: SecureStorage plugin)
 
 extends Node
 
